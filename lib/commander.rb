@@ -4,7 +4,7 @@ module Commander
 
 	def self.parse argv
 		parsed = {}
-		last_key = nil
+		last_key = :key
 		
 		argv.each do |arg|
 			case arg
