@@ -1,6 +1,6 @@
-require "clit/version"
+require "clier/version"
 
-module Clit
+module Clier
 
 	def self.parse argv
 		parsed = {}

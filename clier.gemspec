@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'clit/version'
+require 'clier/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "clit"
-  spec.version       = Clit::VERSION
+  spec.name          = "clier"
+  spec.version       = Clier::VERSION
   spec.authors       = ["sei0o"]
   spec.email         = ["sei0o@live.jp"]
   spec.summary       = "very simple CLI tool"
   spec.description   = "very very simple CLI tool"
-  spec.homepage      = "http://github.com/sei0o/clit"
+  spec.homepage      = "http://github.com/sei0o/clier"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

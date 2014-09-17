@@ -1,4 +1,4 @@
-# Clit
+# Clier
 
 very simple CUI tool
 
@@ -6,7 +6,7 @@ very simple CUI tool
 
 Add this line to your application's Gemfile:
 
-    gem 'clit'
+    gem 'clier'
 
 And then execute:
 
@@ -14,13 +14,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install commander
+    $ gem install clier
 
 ## Usage
 
-		require 'clit'
+		require 'clier'
 		
-		puts Clit.parse ARGV
+		puts Clier.parse ARGV
 
 run this,
 		
