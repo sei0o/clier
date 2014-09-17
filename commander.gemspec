@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Commander::VERSION
   spec.authors       = ["sei0o"]
   spec.email         = ["sei0o@live.jp"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "very simple CLI tool"
+  spec.description   = "very very simple CLI tool"
+  spec.homepage      = "http://github.com/sei0o/commander"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

@@ -1,6 +1,6 @@
 # Commander
 
-TODO: Write a gem description
+very simple CUI tool
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+		require 'commander'
+		
+		puts Commander.parse ARGV
+
+run this,
+		
+		$ ruby foo.rb -a value -b
+		{:a=>"value", :b=>true}
 
 ## Contributing
 
