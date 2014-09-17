@@ -1,6 +1,6 @@
-require "commander/version"
+require "clit/version"
 
-module Commander
+module Clit
 
 	def self.parse argv
 		parsed = {}

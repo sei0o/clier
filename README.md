@@ -1,4 +1,4 @@
-# Commander
+# Clit
 
 very simple CUI tool
 
@@ -6,7 +6,7 @@ very simple CUI tool
 
 Add this line to your application's Gemfile:
 
-    gem 'commander'
+    gem 'clit'
 
 And then execute:
 
@@ -18,9 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-		require 'commander'
+		require 'clit'
 		
-		puts Commander.parse ARGV
+		puts Clit.parse ARGV
 
 run this,
 		
@@ -29,7 +29,7 @@ run this,
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/commander/fork )
+1. Fork it ( http://github.com/<my-github-username>/clit/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
