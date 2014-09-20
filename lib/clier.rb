@@ -7,7 +7,6 @@ module Clier
 		last_key = :key
 		
 		argv.each do |arg|
-			p arg
 			case arg
 				when /--?(.+)/ # -h, -a, -b, -9, --help, --action, --beta
 					# get the first letter of (.+)  e.g. -h => h, --help => h
