@@ -17,6 +17,8 @@ module Clier
 			end
 		end
 		
+		parsed[:key].to_s! if parsed[:key] 
+		
 		parsed
 	end
 	
